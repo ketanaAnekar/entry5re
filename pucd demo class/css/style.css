@@ -1,0 +1,219 @@
+body{
+    background-color: black;
+}
+.position{
+    position: relative;
+    top:0%;
+    width:120%;
+    height:150px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.textposition{
+    text-align: center;
+    font-family: "eight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 650%;
+    position: relative;
+    top: 5%;
+    left: 13px;
+}
+.static {
+    position:absolute;
+    top:47%;
+    left:0%;
+    width: 1920px;
+    height: 1080px;
+  }
+  
+  .static:hover {
+    opacity:0;
+    width: 1920px;
+    height: 1080px;
+  }
+  .active{
+    width:1920px;
+    height:1080px;
+  }
+  .active1{
+    position: relative;
+    top:47%;
+    width:1920px;
+    height:1080px;
+
+  }
+ #movingtogether{
+    position: relative;
+    top:47%;
+ }
+.text {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .textposition2{
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+}
+#titlecolor{
+    color: aliceblue;
+    font-family: "juniper-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 600%;
+    position: relative;
+    left: 55%;
+    top: 700px;
+}
+.page1{
+    font-family: "eight", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    background-image:url('tame\ i\ gif\ copy.gif'); background-repeat:repeat;  
+    background-size: 1920px 1080px; 
+    color: aliceblue;
+    text-align: center;
+    width:1920px;
+    height:1080px;
+    position: absolute;
+    left:0%
+    
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+  #picture-align{
+    position: relative;
+    left: 0px;
+}
+#text-position{
+    color: aliceblue;
+    font-family: "juniper-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 400%;
+    position: relative;
+    top: 450px;
+    left: -1%;
+}
+.imgsize{
+    width:50%;
+    height:50%;
+}
+
+#imgposition{
+    position: relative;
+    left: 70%;
+    top: -770px;
+}
+.feels{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 50%;
+    top: -400px;
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 800%;
+
+}
+.feels2{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 800%;
+    position: relative;
+    left: 30%;
+    top: -300px;
+
+}
+#imgposition2{
+    position: relative;
+    top: -890px;
+    left: -5%;
+}
+.feels3{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 800%;
+    position:relative;
+    top: -1300px;
+    left: 40%;
+
+}
+.audioposition{
+    position: relative;
+    top: -1300px;
+    left: 53%;
+
+}
+.redblock{
+    background-color: red;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    top: -1200px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ff00f2;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  
+  
